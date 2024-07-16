@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="betacraft, launcher, proxy, minecraft, beta, alpha, classic, server">
+    <meta name="generator" content="betacraftuk/homepage">
+    <meta name="description"
+        content="Home of the Betacraft Launcher project, aiming to fix some flaws of the official Minecraft Launcher. You are also welcome to join our nostalgic Minecraft Beta server!">
+    <meta name="author" content="Betacraft Team">
+
+    <title>Login - Betacraft</title>
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    
+    <link rel="stylesheet" href="/assets/style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Betacraft",
+            "url": "https://betacraft.uk",
+            "logo": "https://betacraft.uk/assets/pack.png"
+        }
+    </script>
+    <script async src="/assets/safari.js"></script>
+</head>
+
+<body>
+    <header class="navigation-container" aria-label="Header">
+        <nav aria-label="Navigation and logo" class="navigation">
+            <a class="navigation__home" href="/" title="Homepage" aria-label="Go to homepage">
+                <img class="navigation__logo" alt="Betacraft written in the old Minecraft logo style"
+                    src="/assets/logo.png" height="40" width="248">
+            </a>
+            <div class="navigation__links navigation__links--start" aria-label="Site navigation">
+                <a class="navigation__link navigation__link--white" href="/downloads">Downloads</a>
+                <a class="navigation__link navigation__link--white"
+                    href="https://www.patreon.com/BetacraftLauncher">Donate</a>
+                <a class="navigation__link navigation__link--white" href="https://discord.gg/d4WvXeQ">Discord</a>
+                
+            </div>
+            <div class="navigation__links navigation__links--end" aria-label="Account navigation">
+                
+                <a class="navigation__link" href="/login">Log in</a>
+                
+                
+            </div>
+        </nav>
+    </header>
+
+    
+    
+
+    
+<main class="main" aria-label="Main content">
+    <section aria-label="Login">
+        <h1>Sign in</h1>
+        <p>To obtain a passcode, use Minecraft 1.5.2 to join login.betacraft.uk</p>
+        <p class="p--warning">Be sure to login to your Microsoft account with a purchased Minecraft JE licence beforehand.<br>Cracked players are not supported.</p>
+
+        <form class="account-form" action="/login" method="post">
+            <input type="hidden" name="csrf" value="EMJKH7HYFUQ7QNBHVKLNWARWIAXG2GDDX27J22JKJJHA2FRPBA6A">
+
+            <div class="account-form__field">
+                <label class="acocunt-form__label" for="username-field">Username</label>
+                <input class="form__input" type="text" name="username" placeholder="Username" id="username-field">
+            </div>
+
+            <div class="account-form__field">
+                <label class="form__label" for="password-field">Passcode</label>
+                <input class="form__input" type="text" autocapitalize="characters" name="password" placeholder="XXXX-XXXX" id="password-field">
+                <span class="span--note">Codes are case insensitive.<br>Also, you can skip the dash (-)</span>
+                
+            </div>
+
+            
+
+            <input class="form__input" type="submit" value="Sign in">
+        </form>
+    </section>
+    <section aria-label="Information">
+        <p>By signing in, you are able to set a skin and cape override on Betacraft proxy.</p>
+        <p>Useful if you want to keep your rich & advanced skin for modern versions, and have a more primitive (yet compatible) one for legacy versions.</p>
+        <p>You are also able to reset your skin cache instead of waiting 7 days for your skin to update (yay!)</p>
+    </section>
+</main>
+
+    <footer class="footer" aria-label="Footer containing legal information">
+        Betacraft 2013-2024 &mdash; This website is not affiliated with Mojang.
+        <a class="footer__link" href="/legal#terms-of-service">Terms of Service</a>
+        | <a class="footer__link" href="/legal#privacy-policy">Privacy Policy</a>
+    </footer>
+</body>
+
+</html>
