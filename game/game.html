@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-64TQKQ7TWQ"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8813036089409443" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Eaglercraft is a website that lets you play Eaglercraft, an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world." />
+    <meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8, eaglercraft, eaglercraft minecraft, eaglercraft 3kh0, eaglercraft github, eaglercraft singleplayer, eaglercraft hacks, eaglercraft 1.8, eaglercraft server, eaglecraft game, eaglercraft alternative, eaglercraft alt links, eaglercraft asspixel, eaglercraft anarchy server, eaglercraft aeon, eaglercraft asspixel server ip, eaglercraft all links, eaglercraft aeon server, eaglercraft beta, eaglecraft boats, eaglecraft boats for sale, eaglecraft boats for sale bc, eaglecraft bedwars server, eaglecraft boats inc, eaglercraft beta servers, eaglercraft blocked, eaglercraft client, eaglecraft custom boats, eaglecraft campbell river, eaglercraft creative, eaglercraft commands, eaglercraft code, eaglercraft controls, eaglercraft com, eaglercraft download, eaglercraft discord, eaglercraft dupe glitch, eaglercraft download file, eaglercraft download google drive, eaglercraft dmca, eaglercraft deleted, eaglercraft down, eaglercraft embed, eaglercraft epk file download, eaglercraft end of stream, eaglecraft apk download, eaglecraft eagtek, eaglercraft exploit, eaglecraft eggs, eaglercraft epk world file download, eaglercraft file, eaglercraft file download, eaglercraft free, eaglercraft forums, eaglercraft fork, eaglercraft faq, eaglercraft fps, eaglecraft free download, eaglercraft github servers, eaglercraft google drive, eaglercraft github lax1dude, eaglercraft github download, eaglercraft github.io, eaglercraft google sites, minecraft, applet, singleplayer, replit, html5, chromebook, lax1dude, games, eaglercraft singleplayer, eagler, minecraft for free, free minecraft" />
+    <meta property="og:title" content="An awesome, free voxel game | Eaglercraft" />
+    <meta property="og:locale" content="en-US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/img/titleBG.png" />
+    <meta property="og:description" content="Eaglercraft is a website that lets you play Eaglercraft, an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglercraft</title>
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video-js.min.css" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+            --color-white: #ffffff;
+            --color-bright: #e0d0d0;
+            --color-blue: #aaaaff;
+            --color-gray: #595959;
+            --color-light-gray: #8e8e8e;
+            --color-red: #9b1616;
+            --color-green: #199719;
+            --color-orange: #f7942b;
+            --color-orange-dark: #b36b1f;
+            --padding: 1em
+        }
+
+        h1 {
+            font-size: 1.75em
+        }
+
+        p,
+        ul,
+        ol {
+            margin-top: 1.5em;
+        }
+
+        h2 {
+            font-size: 1.5em
+        }
+
+        body {
+            margin: 0;
+            overflow-y: scroll;
+            background-color: #1d1d1d;
+            background-image: url("/img/stone.png");
+            font-family: sans-serif;
+            color: var(--color-bright)
+        }
+
+        a {
+            color: var(--color-blue);
+            text-decoration: none
+        }
+
+        .news {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .intro {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        iframe {
+            display: flex;
+            border: none
+        }
+
+        a,
+        a:visited {
+            text-decoration: none
+        }
+
+        .time {
+            font-size: 11px;
+            margin-top: 0.5em;
+            color: #8e8e8e
+        }
+
+        .small {
+            font-size: 11px;
+        }
+
+        .small a {
+            text-decoration: none;
+        }
+
+        li {
+            margin-top: 1em;
+            font-size: 0.8em
+        }
+
+        p {
+            font-size: 0.8em
+        }
+
+        ::-moz-selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        ::selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        .p--warning {
+            color: var(--color-orange);
+            font-weight: bold
+        }
+
+        .span--note {
+            color: var(--color-light-gray);
+            font-size: smaller
+        }
+
+        .navigation-container {
+            background-image: url("/img/dirt.png");
+            height: 48px;
+            margin-bottom: 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding)
+        }
+
+        .navigation {
+            margin: auto;
+            max-width: 67.5rem;
+            display: flex;
+            flex-direction: row;
+            place-items: center;
+            column-gap: 1em;
+            height: 100%
+        }
+
+        .navigation__logo {
+            float: left;
+            width: 260px;
+            height: 48px;
+            background: transparent url(/img/minecraft.png) no-repeat 0 1px;
+            display: block;
+            overflow: hidden;
+            text-indent: -10000px
+        }
+
+        .navigation__links--start {
+            text-align: start
+        }
+
+        .navigation__links--end {
+            text-align: end;
+            flex: 1
+        }
+
+        .navigation__link {
+            font-weight: bold;
+            padding: 0.5em
+        }
+
+        .navigation__link--white {
+            color: var(--color-white)
+        }
+
+        .navigation__link--dropdown {
+            color: var(--color-white);
+            position: relative;
+            display: inline-block
+        }
+
+        .navigation__link--dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #444;
+          min-width: 200px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .navigation__link--dropdown-content a {
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .navigation__link--dropdown:hover .navigation__link--dropdown-content {
+          display: block;
+        }
+
+        .navigation__link--dropdown-content a:hover {
+            background-color: #595959;
+        }
+
+        .navigation__link--eng {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .navigation__link--ru {
+            font-weight: bold
+        }
+
+        .main {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 1em;
+            position: relative;
+            padding: 20px 0 40px;
+            place-content: center;
+            column-gap: 2em;
+            row-gap: 2em
+        }
+
+        .main--legal {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 0
+        }
+
+        .section--wide {
+            width: 100%
+        }
+
+        .left {
+            width: 640px;
+            float: left;
+        }
+
+        .footer {
+            color: var(--color-gray);
+            margin: 2em;
+            text-align: center;
+            font-size: smaller;
+            position: relative;
+            margin-top: -32px;
+            height: 34px;
+            padding-top: 38px;
+            clear: both
+        }
+
+        .footer__link {
+            color: var(--color-light-gray)
+        }
+
+        .button {
+            background: linear-gradient(#9e9e9e, #4e4e4e);
+            color: var(--color-white);
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            place-items: center;
+            place-content: center;
+            border-radius: 0.25em;
+            padding: 0.5em 1em
+        }
+
+        select {
+            background-image: url("/img/dirt.png");
+            color: #ffffff;
+            background-color: #444;
+            padding: 0 10px;
+            font-size: 15px;
+        }
+
+        .button--orange {
+            background: linear-gradient(var(--color-orange), var(--color-orange-dark))
+        }
+
+        .status-message {
+            max-width: 44em;
+            margin: auto auto 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding);
+            display: flex;
+            column-gap: 1em;
+            place-content: center;
+            place-items: center
+        }
+
+        .status-message__description {
+            text-align: initial;
+            font-size: larger;
+            flex: 1;
+            margin: 0
+        }
+
+        .game-video {
+            margin-top: 0.2em;
+            margin-bottom: 0.2em;
+            width: 100%
+        }
+
+
+        .play-now {
+            display: flex;
+            flex-direction: column;
+            place-items: center
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            place-items: center
+        }
+
+        .play-now__button {
+            font-size: 130%;
+            margin-top: 2.25em;
+            width: 200px
+        }
+
+        .downloads {
+            display: flex;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .downloads__thumbnail {
+            width: 100%;
+            align-self: center;
+            margin-top: 1em;
+            margin-bottom: 2.5em
+        }
+
+        .downloads__links {
+            display: flex;
+            column-gap: 1em;
+            row-gap: 1em
+        }
+
+        .downloads__link {
+            flex: 1
+        }
+
+        .downloads__other {
+            margin-top: 1em;
+            display: flex;
+            place-content: center;
+            column-gap: 1em;
+            flex-wrap: wrap
+        }
+
+        .utilities {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 1em;
+            place-content: center;
+            row-gap: 1em
+        }
+
+        .utility {
+            display: flex;
+            flex-direction: column;
+            width: 25em
+        }
+
+        .utility__description {
+            flex: 1
+        }
+
+        .account-form {
+            max-width: 40em;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em
+        }
+
+        .form__input {
+            margin-top: 0.25em;
+            width: 100%;
+            padding: 0.4em
+        }
+
+        .account-form__link {
+            font-size: smaller
+        }
+
+        .form-submit {
+            width: 50%;
+            margin-top: 0.25em
+        }
+
+        @media (max-width: 65em) {
+            .navigation__user-status {
+                display: none
+            }
+        }
+
+        @media (max-width: 50em) {
+            main {
+                margin: 1em;
+                flex-direction: column
+            }
+
+            .navigation__home {
+                display: none
+            }
+
+            .navigation__separator--account,
+            .navigation__user-status {
+                display: none
+            }
+
+            .downloads__links--wide {
+                flex-direction: column
+            }
+        }
+
+        @media (max-width: 37em) {
+            .navigation__username {
+                display: none
+            }
+
+            .navigation__separator {
+                display: none
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="navigation-container" aria-label="Header">
+        <nav aria-label="Top Bar" class="navigation">
+            <a class="navigation__logo" href="/">Minecraft</a>
+            <div class="navigation__links navigation__links--start" aria-label="Site navigation">
+                <a class="navigation__link navigation__link--white" href="/">Home</a>
+                <div class="navigation__link--dropdown"><a class="navigation__link navigation__link--white">Game</a><div class="navigation__link--dropdown-content"><a class="navigation__link navigation__link--white" href="/p/game/">What is Minecraft?</a><a class="navigation__link navigation__link--white" href="/p/howtoplay/">Getting started</a><a class="navigation__link navigation__link--white" href="/p/credits/">Credits</a></div></div>
+                <a class="navigation__link navigation__link--white" href="https://servers.eaglercraft.com">Servers</a>
+                <a class="navigation__link navigation__link--white" href="/p/news/">News</a>
+                <a class="navigation__link navigation__link--white" href="/p/community/">Community</a>
+                <a class="navigation__link navigation__link--white" href="/p/downloads/">Downloads</a>
+                <a class="navigation__link navigation__link--white" href="https://git.eaglercraft.rip/eaglercraft" target="_blank">Source</a>
+            </div>
+            <div class="navigation__links navigation__links--end" aria-label="Browser Note">
+
+                <!-- <a class="navigation__link">Log in</a> -->
+                <!-- <span class="navigation__separator" aria-hidden="true">|</span> -->
+                <!--  <a class="navigation__link">Register</a> -->
+                <!-- <a class="navigation__link navigation__link--eng" href="">English</a> -->
+                <!-- <span class="navigation__separator" aria-hidden="true">|</span> -->
+                <!-- <a class="navigation__link navigation__link--ru" href=""onclick='alert("русские переводы еще не закончены((");'>Русский</a> -->
+                <div id="google_translate_element"></div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main" aria-label="Main content">
+        <section class="left" aria-label="Main">
+            <h4>Who made this thing?</h4>
+            <p>Minecraft was originally created by <a href="https://twitter.com/notch">Markus Persson</a>, who you might know as Notch. On November 19th, 2011, <a href="https://twitter.com/jeb_">Jens Bergensten</a>, who you might know as Jeb, took over creative control so Markus could concentrate on new things.</p>
+            <p>Thanks to Minecraft’s success, Markus formed his own company in 2009. <a href="https://mojang.com/">Mojang AB</a> currently has two titles in development. <a href="https://scrolls.com/">Scrolls</a> and Markus’ newest project, <a href="https://0x10c.com/">0x10c</a>, are both getting cooked up. Mojang AB is also publishing Oxeye Studio’s latest game, <a href="http://playcobalt.com/">Cobalt</a>.</p> 
+            <br>
+            <h4>A longer history</h4>
+            <p>June 1st, 2009. Stockholm. Markus Persson quits his job at an established games developer to create his own game. Unemployed, but enthusiastic, Markus was looking for inspiration, and it came from indie game development blog, Tigsource. Thanks to the resource, the man you probably know as "Notch" ended up playing <a href="https://www.zachtronics.com/">Zachtronic Industries'</a> Infiniminer: an innovative indie which tasked players with collecting resources while cutting into a randomly generated landscape. It was a simple game at heart, but Markus realised potential for something great. He began work on a new project a few weeks after Infiniminer was discontinued.</p>
+            <p>Though Markus’ original idea wasn’t as fully featured as the Minecraft you’ll play today, "Cave Game" was created from the same DNA. This was a game about placing and breaking blocks in a 3D world. The primary motivation was to create an experience where each individual component felt fun. A game that could be both accessible and emergent.</p>
+            <br>
+            <video id="Cave_game_tech_test" class="video-js game-video" controls preload="auto" fluid="true" poster="/img/Cave_game_tech_test.webp" data-setup="{}">
+                <source src="/video/Cave_game_tech_test.webm" type="video/webm">
+                <source src="/video/Cave_game_tech_test.mp4" type="video/mp4">
+            </video>
+            <p>The next step was to include a multiplayer mode so players could dig together, then a "Survival mode" to make the world feel dangerous. Things begun to escalate. A mention on the official <a href="https://www.teamfortress.com/post.php?id=4130">Team Fortress 2 blog</a> and a <a href="https://www.pcgamer.com/community-heroes-notch-for-minecraft/">PC Gamer interview</a> on July 29, 2010 introduced Minecraft to a wider audience. The Minecraft train was accelerating.</p>
+            <p>But maybe it gathered too much pace. On September 18th 2010, the Minecraft webserver crashed due to the sheer amount of players signing up. Markus made the game free to compensate, causing yet another spike in downloads. And things were just getting started. A video showing off one man’s dedication to create a 1:1 replica of the Starship Enterprise went viral, churning up YouTube views. Minecraft was getting harder to ignore. And why would you want to?</p>
+            <p>Next came a <a href="https://www.youtube.com/watch?v=LGkkyKZVzug">16-bit computer</a>, prompting Markus to vent his excitement via his now notorious <a href="https://twitter.com/notch/status/25861843703">Twitter feed</a>: "I saw the ALU and I wet myself," he wrote. "Seriously! I got a hose and I wet myself. With pee." RMS Titanic, a marriage proposal from a Bioware developer, and a spookily accurate representation of BioShock’s Rapture all popped up: Minecraft’s potential was being realised by its community of creatives. YouTube made it easy to appreciate, even if you didn’t actually play.</p>
+            <br>
+            <video id="16-bit_ALU_in_minecraft" class="video-js game-video" controls preload="auto" fluid="true" poster="/img/16-bit_ALU_in_minecraft.webp" data-setup="{}">
+                <source src="/video/16-bit_ALU_in_minecraft.webm" type="video/webm">
+                <source src="/video/16-bit_ALU_in_minecraft.mp4" type="video/mp4">
+            </video>
+            <p>Markus began work on a Halloween update that brought a chunk of new blocks to the game including pumpkins, fish and working clocks. But just ten days before release, disgruntled users launched 85,000 bots at the Minecraft servers, crashing it again. Despite the inconvenience, the Halloween update launched on October 30th, bringing the ability to create a portal to The Nether: Minecraft’s fiery inferno ruled by burning beasts and smothered in lava.</p>
+            <p>On December 20 2010 it was announced that Minecraft was officially in beta. Noteblocks were introduced, allowing players to create music in Minecraft, and sparking a whole new breed of Minecraft videos: the musical parody.</p>
+            <p>Soon after, the awards began to roll in. An Indie Game of the Year award from <a href="https://www.indiedb.com/">IndieDB</a> and numerous accolades from <a href="https://gdconf.com/">GDC</a>. In February 2011, beds got introduced. Minecraft’s central protagonist, Steve, named by Markus on a whim in an interview, got to enjoy a well-deserved snooze (even though he kept his clothes on and slept over the sheets).</p>
+            <p>In June, the unforgiving Adventure Update was released. It introduced a hunger meter, advanced combat mechanics, and the terrifying Endermen. Minecraft got ported to smaller, open-sourcier <a href="/dl/Minecraft_PocketEdition-0.7.0.apk">Android</a> devices in October, and sleeker, more expensive, <a href="/dl/Minecraft_PocketEdition_0.7.0.ipa">iOS</a> ones in November. People started building things on planes, trains and automobiles. Minecraft had gone mobile.</p>
+            <br>
+            <video id="Minecraft_1.8_trailer" class="video-js game-video" controls preload="auto" fluid="true" poster="/img/Minecraft_1.8_trailer.webp" data-setup="{}">
+                <source src="/video/Minecraft_1.8_trailer.webm" type="video/webm">
+                <source src="/video/Minecraft_1.8_trailer.mp4" type="video/mp4">
+            </video>
+            <p>Minecraft was officially released on November 18th at the MineCon 2011 keynote. It was epic.</p>
+            <p>On November 19th 2011, <a href="https://twitter.com/jeb_">Jens Bergensten</a>, who you might know as Jeb, took over creative control of Minecraft so Markus could concentrate on his new project, <a href="https://0x10c.com/">0x10c</a>. They’d been working together for over a year so Markus wasn’t concerned about handing over the reins. Jeb has been in control since, updating Minecraft with Weekly Snapshots. Tameable animals, maps, pistons, elephantine NPCs, and The End followed. And it’s still evolving.</p>
+            <p><a href="https://marketplace.xbox.com/en-US/Product/Minecraft/66acd000-77fe-1000-9115-d802584111f7">Minecraft Xbox 360 edition</a> was released in May 2012, giving console players opportunity to experience Minecraft for themselves. It broke more records, selling a staggering four million copies in just five months. 4J Studios are responsible for the port, and are dedicating their time to create the most fully featured experience possible. You can track the updates on all forms of Minecraft by following the team on twitter, or by checking <a href="https://mojang.com/">mojang.com</a>, where we regularly post about recent happenings.</p>
+            <p>The rest is in the future! And there’s a lot more to come.</p>
+        </section>
+    </main>
+    <footer class="footer" aria-label="Footer containing legal information">
+        Eaglercraft 2023-2024 — 
+        <a class="footer__link" href="/p/legal/#terms-of-service">Terms of Service</a>
+        | <a class="footer__link" href="/p/legal/#privacy-policy">Privacy Policy</a>
+        | <a class="footer__link" href="/p/legal/#dmca">DMCA</a>
+         — This website is not affiliated with Mojang.
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js"></script>
+</body>
+
+</html>
