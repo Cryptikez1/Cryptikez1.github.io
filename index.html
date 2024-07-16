@@ -1,34 +1,103 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="image/png" rel="shortcut icon" href="favicon.ico" />
-    <title>Eaglercraft</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+    <meta name="keywords" content="betacraft, launcher, proxy, minecraft, beta, alpha, classic, server">
+    <meta name="generator" content="betacraftuk/homepage">
+    <meta name="description"
+        content="Home of the Betacraft Launcher project, aiming to fix some flaws of the official Minecraft Launcher. You are also welcome to join our nostalgic Minecraft Beta server!">
+    <meta name="author" content="Betacraft Team">
+
+    <title>Home - Betacraft</title>
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    
+    <link rel="stylesheet" href="/assets/style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Betacraft",
+            "url": "https://betacraft.uk",
+            "logo": "https://betacraft.uk/assets/pack.png"
         }
-        button {
-            padding: 15px 25px;
-            margin: 10px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
+    </script>
+    <script async src="/assets/safari.js"></script>
 </head>
+
 <body>
-    <h1>Select Eaglercraft Version (made by harrison and jayden)</h1>
-  	<button onclick="location.href='188/index.html'">EaglercraftX 1.8.8 (Recommended and Default Version)</button>
-    <button onclick="location.href='152/index.html'">EaglercraftX 1.5.2 (Nobody will use this..)</button>
-    <button onclick="location.href='b13/index.html'">Eaglercraft Beta 1.3 (NOT RECOMMENDED!)</button>
-    <h1>1.8.8 is recommended but Beta 1.3 has better fps but WAY less features and WAY OLDER!!</h1>
-    <h1>For reference, Beta 1.3 was created on "February 22, 2011" and 1.8.8 was created on "July 28, 2015"</h1>
+    <header class="navigation-container" aria-label="Header">
+        <nav aria-label="Navigation and logo" class="navigation">
+            <a class="navigation__home" href="/" title="Homepage" aria-label="Go to homepage">
+                <img class="navigation__logo" alt="Betacraft written in the old Minecraft logo style"
+                    src="/assets/logo.png" height="40" width="248">
+            </a>
+            <div class="navigation__links navigation__links--start" aria-label="Site navigation">
+                <a class="navigation__link navigation__link--white" href="/downloads">Downloads</a>
+                <a class="navigation__link navigation__link--white"
+                    href="https://www.patreon.com/BetacraftLauncher">Donate</a>
+                <a class="navigation__link navigation__link--white" href="https://discord.gg/d4WvXeQ">Discord</a>
+                
+            </div>
+            <div class="navigation__links navigation__links--end" aria-label="Account navigation">
+                
+                <a class="navigation__link" href="/login">Log in</a>
+                
+                
+            </div>
+        </nav>
+    </header>
+
+    
+    
+
+    
+    <main class="main" aria-label="Main content">
+        <section aria-label="About Betacraft">
+            <video class="trailer-video" src="/assets/trailer.mp4" poster="/assets/trailer.webp" controls>Trailer</video>
+
+            <p>
+                BetaCraft is a Polish group devoted to the old-school Minecraft era. It was founded back in
+                2013, when we launched the first Minecraft nostalgia server. Our current projects are:
+            </p>
+            <ul>
+                <li>the old-school b1.7.3 Minecraft server (since May 2013)</li>
+                <li>the Betacraft Launcher, which brings back legacy versions support (since August 2018)</li>
+                <li>the Betacraft Proxy, which fixes inaccuracies common in other launchers (since March 2018)</li>
+            </ul>
+            <p>
+                The proxy and the launcher aim to fix some of the biggest flaws of the official Minecraft launcher
+                in regard to legacy versions. For example, they provide fixes for skins, capes, lack of sound effects,
+                client crashes, etc.
+            </p>
+            <p>
+                Our server is available 24/7 and its primary language is English. Players can enjoy Freebuild and Factions gameplay types.
+            </p>
+        </section>
+        <aside class="download-now">
+            <picture>
+                <source type="image/webp" srcset="/assets/animals.webp">
+                <source type="image/png" srcset="/assets/animals.png">
+                <img src="/assets/animals.png" width="300" height="202" alt="Left to right: A pig, Steve, and a sheep">
+            </picture>
+            <a href="/downloads" class="download-now__button button button--orange">Download Now!</a>
+	    <br />
+	    <hr />
+	    <p>Server IP: <a>betacraft.uk</a> (b1.7.3)</p>
+	    <a href="https://map.betacraft.uk" class="bluemap__button">
+		<img src="/assets/BluemapBanner.png" class="bluemap__img" />
+		<p class="bluemap__comment">updates weekly, Wednesday-Friday</p>
+	    </a>
+        </aside>
+    </main>
+    
+    <footer class="footer" aria-label="Footer containing legal information">
+        Betacraft 2013-2024 &mdash; This website is not affiliated with Mojang.
+        <a class="footer__link" href="/legal#terms-of-service">Terms of Service</a>
+        | <a class="footer__link" href="/legal#privacy-policy">Privacy Policy</a>
+    </footer>
 </body>
+
 </html>
