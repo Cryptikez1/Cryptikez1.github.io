@@ -1,0 +1,579 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-64TQKQ7TWQ"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8813036089409443" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Eaglercraft is a website that lets you play Eaglercraft, an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world." />
+    <meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8, eaglercraft, eaglercraft minecraft, eaglercraft 3kh0, eaglercraft github, eaglercraft singleplayer, eaglercraft hacks, eaglercraft 1.8, eaglercraft server, eaglecraft game, eaglercraft alternative, eaglercraft alt links, eaglercraft asspixel, eaglercraft anarchy server, eaglercraft aeon, eaglercraft asspixel server ip, eaglercraft all links, eaglercraft aeon server, eaglercraft beta, eaglecraft boats, eaglecraft boats for sale, eaglecraft boats for sale bc, eaglecraft bedwars server, eaglecraft boats inc, eaglercraft beta servers, eaglercraft blocked, eaglercraft client, eaglecraft custom boats, eaglecraft campbell river, eaglercraft creative, eaglercraft commands, eaglercraft code, eaglercraft controls, eaglercraft com, eaglercraft download, eaglercraft discord, eaglercraft dupe glitch, eaglercraft download file, eaglercraft download google drive, eaglercraft dmca, eaglercraft deleted, eaglercraft down, eaglercraft embed, eaglercraft epk file download, eaglercraft end of stream, eaglecraft apk download, eaglecraft eagtek, eaglercraft exploit, eaglecraft eggs, eaglercraft epk world file download, eaglercraft file, eaglercraft file download, eaglercraft free, eaglercraft forums, eaglercraft fork, eaglercraft faq, eaglercraft fps, eaglecraft free download, eaglercraft github servers, eaglercraft google drive, eaglercraft github lax1dude, eaglercraft github download, eaglercraft github.io, eaglercraft google sites, minecraft, applet, singleplayer, replit, html5, chromebook, lax1dude, games, eaglercraft singleplayer, eagler, minecraft for free, free minecraft" />
+    <meta property="og:title" content="An awesome, free voxel game | Eaglercraft" />
+    <meta property="og:locale" content="en-US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/img/titleBG.png" />
+    <meta property="og:description" content="Eaglercraft is a website that lets you play Eaglercraft, an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglercraft</title>
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video-js.min.css" rel="stylesheet"/>
+    <style>
+        * {
+            box-sizing: border-box;
+            --color-white: #ffffff;
+            --color-bright: #e0d0d0;
+            --color-blue: #aaaaff;
+            --color-gray: #595959;
+            --color-light-gray: #8e8e8e;
+            --color-red: #9b1616;
+            --color-green: #199719;
+            --color-orange: #f7942b;
+            --color-orange-dark: #b36b1f;
+            --padding: 1em
+        }
+
+        h1 {
+            font-size: 1.75em
+        }
+
+        p,
+        ul,
+        ol {
+            margin-top: 1.5em;
+        }
+
+        h2 {
+            font-size: 1.5em
+        }
+
+        body {
+            margin: 0;
+            overflow-y: scroll;
+            background-color: #1d1d1d;
+            background-image: url("/img/stone.png");
+            font-family: sans-serif;
+            color: var(--color-bright)
+        }
+
+        a {
+            color: var(--color-blue);
+            text-decoration: none
+        }
+
+        .news {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .intro {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        iframe {
+            display: flex;
+            border: none
+        }
+
+        a,
+        a:visited {
+            text-decoration: none
+        }
+
+        .time {
+            font-size: 11px;
+            margin-top: 0.5em;
+            color: #8e8e8e
+        }
+
+        .small {
+            font-size: 11px;
+        }
+
+        .small a {
+            text-decoration: none;
+        }
+
+        li {
+            margin-top: 1em;
+            font-size: 0.8em
+        }
+
+        p {
+            font-size: 0.8em
+        }
+
+        ::-moz-selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        ::selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        .p--warning {
+            color: var(--color-orange);
+            font-weight: bold
+        }
+
+        .span--note {
+            color: var(--color-light-gray);
+            font-size: smaller
+        }
+
+        .navigation-container {
+            background-image: url("/img/dirt.png");
+            height: 48px;
+            margin-bottom: 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding)
+        }
+
+        .navigation {
+            margin: auto;
+            max-width: 67.5rem;
+            display: flex;
+            flex-direction: row;
+            place-items: center;
+            column-gap: 1em;
+            height: 100%
+        }
+
+        .navigation__logo {
+            float: left;
+            width: 260px;
+            height: 48px;
+            background: transparent url(/img/minecraft.png) no-repeat 0 1px;
+            display: block;
+            overflow: hidden;
+            text-indent: -10000px
+        }
+
+        .navigation__links--start {
+            text-align: start
+        }
+
+        .navigation__links--end {
+            text-align: end;
+            flex: 1
+        }
+
+        .navigation__link {
+            font-weight: bold;
+            padding: 0.5em
+        }
+
+        .navigation__link--white {
+            color: var(--color-white)
+        }
+
+        .navigation__link--dropdown {
+            color: var(--color-white);
+            position: relative;
+            display: inline-block
+        }
+
+        .navigation__link--dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #444;
+          min-width: 200px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .navigation__link--dropdown-content a {
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .navigation__link--dropdown:hover .navigation__link--dropdown-content {
+          display: block;
+        }
+
+        .navigation__link--dropdown-content a:hover {
+            background-color: #595959;
+        }
+
+        .navigation__link--eng {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .navigation__link--ru {
+            font-weight: bold
+        }
+
+        .main {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 1em;
+            position: relative;
+            padding: 20px 0 40px;
+            place-content: center;
+            column-gap: 2em;
+            row-gap: 2em
+        }
+
+        .main--legal {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 0
+        }
+
+        .section--wide {
+            width: 100%
+        }
+
+        .left {
+            display: block;
+            width: 640px;
+            float: left;
+        }
+
+        .footer {
+            color: var(--color-gray);
+            margin: 2em;
+            text-align: center;
+            font-size: smaller;
+            position: relative;
+            margin-top: -32px;
+            height: 34px;
+            padding-top: 38px;
+            clear: both
+        }
+
+        .footer__link {
+            color: var(--color-light-gray)
+        }
+
+        .button {
+            background: linear-gradient(#9e9e9e, #4e4e4e);
+            color: var(--color-white);
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            place-items: center;
+            place-content: center;
+            border-radius: 0.25em;
+            padding: 0.5em 1em
+        }
+
+        select {
+            background-image: url("/img/dirt.png");
+            color: #ffffff;
+            background-color: #444;
+            padding: 0 10px;
+            font-size: 15px;
+        }
+
+        .button--orange {
+            background: linear-gradient(var(--color-orange), var(--color-orange-dark))
+        }
+
+        .status-message {
+            max-width: 44em;
+            margin: auto auto 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding);
+            display: flex;
+            column-gap: 1em;
+            place-content: center;
+            place-items: center
+        }
+
+        .status-message__description {
+            text-align: initial;
+            font-size: larger;
+            flex: 1;
+            margin: 0
+        }
+
+        .game-video {
+            margin-top: -1em;
+            margin-bottom: 1em;
+            width: 100%
+        }
+
+
+        .play-now {
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            place-items: center
+        }
+
+        .play-now__button {
+            font-size: 130%;
+            margin-top: 2.25em;
+            width: 200px
+        }
+
+        .downloads {
+            display: flex;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .downloads__thumbnail {
+            width: 100%;
+            align-self: center;
+            margin-top: 1em;
+            margin-bottom: 2.5em
+        }
+
+        .downloads__links {
+            display: flex;
+            column-gap: 1em;
+            row-gap: 1em
+        }
+
+        .downloads__link {
+            flex: 1
+        }
+
+        .downloads__other {
+            margin-top: 1em;
+            display: flex;
+            place-content: center;
+            column-gap: 1em;
+            flex-wrap: wrap
+        }
+
+        .utilities {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 1em;
+            place-content: center;
+            row-gap: 1em
+        }
+
+        .utility {
+            display: flex;
+            flex-direction: column;
+            width: 25em
+        }
+
+        .utility__description {
+            flex: 1
+        }
+
+        .account-form {
+            max-width: 40em;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em
+        }
+
+        .form__input {
+            margin-top: 0.25em;
+            width: 100%;
+            padding: 0.4em
+        }
+
+        .account-form__link {
+            font-size: smaller
+        }
+
+        .form-submit {
+            width: 50%;
+            margin-top: 0.25em
+        }
+
+        @media (max-width: 65em) {
+            .navigation__user-status {
+                display: none
+            }
+        }
+
+        @media (max-width: 50em) {
+            main {
+                margin: 1em;
+                flex-direction: column
+            }
+
+            .navigation__home {
+                display: none
+            }
+
+            .navigation__separator--account,
+            .navigation__user-status {
+                display: none
+            }
+
+            .downloads__links--wide {
+                flex-direction: column
+            }
+        }
+
+        @media (max-width: 37em) {
+            .navigation__username {
+                display: none
+            }
+
+            .navigation__separator {
+                display: none
+            }
+        }
+
+        .essentials {
+            font-size: 18px;
+            padding-left: 40px;
+            background-repeat: no-repeat;
+            padding-top: 5px;
+            height: 30px;
+            margin-bottom: 1em;
+            background-image: url('/img/gold_pickaxe.png')
+        }
+
+        .combat {
+            font-size: 18px;
+            padding-left: 40px;
+            background-repeat: no-repeat;
+            padding-top: 5px;
+            height: 30px;
+            margin-bottom: 1em;
+            background-image: url('/img/iron_sword.png')
+        }
+
+        .construction {
+            font-size: 18px;
+            padding-left: 40px;
+            background-repeat: no-repeat;
+            padding-top: 5px;
+            height: 30px;
+            margin-bottom: 1em;
+            background-image: url('/img/diamond_shovel.png')
+        }
+
+
+        .redstone {
+            font-size: 18px;
+            padding-left: 40px;
+            background-repeat: no-repeat;
+            padding-top: 5px;
+            height: 30px;
+            margin-bottom: 1em;
+            background-image: url('/img/redstone.png')
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <header class="navigation-container" aria-label="Header">
+        <nav aria-label="Top Bar" class="navigation">
+            <a class="navigation__logo" href="/">Minecraft</a>
+            <div class="navigation__links navigation__links--start" aria-label="Site navigation">
+                <a class="navigation__link navigation__link--white" href="/">Home</a>
+                <div class="navigation__link--dropdown"><a class="navigation__link navigation__link--white">Game</a><div class="navigation__link--dropdown-content"><a class="navigation__link navigation__link--white" href="/p/game/">What is Minecraft?</a><a class="navigation__link navigation__link--white" href="/p/howtoplay/">Getting started</a><a class="navigation__link navigation__link--white" href="/p/credits/">Credits</a></div></div>
+                <a class="navigation__link navigation__link--white" href="https://servers.eaglercraft.com">Servers</a>
+                <a class="navigation__link navigation__link--white" href="/p/news/">News</a>
+                <a class="navigation__link navigation__link--white" href="/p/community/">Community</a>
+                <a class="navigation__link navigation__link--white" href="/p/downloads/">Downloads</a>
+                <a class="navigation__link navigation__link--white" href="https://git.eaglercraft.rip/eaglercraft" target="_blank">Source</a>
+            </div>
+            <div class="navigation__links navigation__links--end" aria-label="Browser Note">
+
+                <!-- <a class="navigation__link">Log in</a> -->
+                <!-- <span class="navigation__separator" aria-hidden="true">|</span> -->
+                <!--  <a class="navigation__link">Register</a> -->
+                <!-- <a class="navigation__link navigation__link--eng" href="">English</a> -->
+                <!-- <span class="navigation__separator" aria-hidden="true">|</span> -->
+                <!-- <a class="navigation__link navigation__link--ru" href=""onclick='alert("русские переводы еще не закончены((");'>Русский</a> -->
+                <div id="google_translate_element"></div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main" aria-label="Main content">
+        <section class="left" aria-label="Main">
+            <h4>Having issues with the game?</h4>
+            <p>Are you having problems playing Minecraft? Are you getting odd error messages? Direct any game/support related issues to the <a href="https://discord.gg/m6N88rfc7D">Discord Server</a>.</p>
+            <br>
+            <h4>Creative? Survival? What’s with all the blocks?</h4>
+            <p>First, the tall green things should be pet. Try that later for a nice surprise.</p>
+            <p>Minecraft is split into two separate game modes. Creative and Survival. You can play both of them in multiplayer. If you’re mostly interested in making huge structures from scratch with unlimited resources, Creative mode is your best bet. You won’t see any enemies, and you can pull blocks of all shapes and sizes out of thin air. It’s a peaceful world.</p>
+            <p>However, if you’d prefer to adventure into a world of danger, where you’re crafting and creating out of necessity, you’ll probably want to play in Survival mode. That comes with gangs of monsters who want to break/explode/eat your bones, one pixel at a time. You’ll need to protect yourself from the creatures that come out at night.</p>
+            <br>
+            <h4>Official Minecraft Handbooks</h4>
+            <p>These are the official handbooks, with tens of pages of content that might just save your life. Learn how to find resources, make a shelter, build like the pros, construct machines with redstone, craft tools, armor, and weapons, and protect yourself from monsters. With tips from Minecraft experts, like developers Jeb and the creator Notch himself, and are the definitive guides to mastering Minecraft.</p>
+            <br>
+            <picture>
+                <source type="image/webp" srcset="/img/books.webp">
+                <source type="image/png" srcset="/img/books.png">
+                <img src="/assets/books.png" alt="Minecraft Handbooks" width="300" height="202">
+            </picture>
+            <p class="essentials"><a href="https://cloudflare-ipfs.com/ipfs/bafykbzacecnnli6yjikfbxsnp6jo6hgkuy7ygtfpa5552pbzyj6kus7dtsxo2?filename=minecraft-essential-handbook-stephanie-milton-1--annas-archive--libgenrs-nf-3316872.pdf" download>Minecraft Essential Handbook</a> - 26th November, 2013</p>
+            <p class="combat"><a href="https://cloudflare-ipfs.com/ipfs/bafykbzaceapmqqgndcuzw4i2pmbfgthh43nonm7gqrk7ypkvxcmvks2x4cch6?filename=minecraft-combat-handbook-stephanie-milton-2014--annas-archive--libgenrs-nf-3316873.pdf" download>Minecraft Combat Handbook</a> - 26th August, 2014</p>
+            <p class="construction"><a href="https://cloudflare-ipfs.com/ipfs/bafykbzacedzc5iaf4dpmjdav4u6l4kxkpptyojiko674i3eouncoysi2yz6u4?filename=minecraft-construction-handbook-updated-edition-an--annas-archive--libgenrs-nf-3238858.pdf" download>Minecraft Construction Handbook</a> - 28th July, 2015</p>
+            <p class="redstone"><a href="https://cloudflare-ipfs.com/ipfs/bafykbzacebi2rcj6fzof3qnmddgsztvwmi3ncndtfnnjjowadzx7vpv2qfvtk?filename=%28Minecraft%20Handbooks_%20Minecraft%20Handbook%29%20Nick%20Farwell%20-%20Minecraft_%20Redstone%20Handbook%20%28Updated%20Edition%29_%20An%20Official%20Mojang%20Book-Scholastic%20Inc.%20%282015%29.pdf" download>Minecraft Redstone Handbook</a> - 28th July, 2015</h3>
+            <p class="small">(The handbooks are PDF files, you can download them by opening the link, and pressing CTRL+S to save it as a PDF file)</p>
+            <br>
+            <h4>Community Made Tutorials</h4>
+            <p>The tutorials below are made by people from our lovely community. They will get you going in no-time. If you're still clueless, you can try the <a href="/p/community/">community center</a>.</p>
+            <br>
+            <h4>The basics</h4>
+            <h5>Part 01: Controls/Options</h5>
+            <video id="Minecraft_Beginners_Tutorial-Part_01-Controls_Options" class="video-js game-video" controls preload="auto" fluid="true" poster="/img/Minecraft_Beginners_Tutorial-Part_01-Controls_Options.webp" data-setup="{}">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_01-Controls_Options.mp4" type="video/webm">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_01-Controls_Options.mp4" type="video/mp4">
+            </video>
+            <br>
+            <h5>Part 02: How to Punch Trees</h5>
+            <video id="Minecraft_Beginners_Tutorial-Part_02-How_to_Punch_Trees" class="video-js game-video" controls preload="auto" fluid="true" poster="/img/Minecraft_Beginners_Tutorial-Part_02-How_to_Punch_Trees.webp" data-setup="{}">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_02-How_to_Punch_Trees.webm" type="video/webm">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_02-How_to_Punch_Trees.mp4" type="video/mp4">
+            </video>
+            <br>
+            <h5>Part 03: Crafting Basics</h5>
+            <video id="Minecraft_Beginners_Tutorial-Part_03-Crafting_Basics" class="video-js game-video" controls preload="auto" fluid="true" poster="/img/Minecraft_Beginners_Tutorial-Part_03-Crafting_Basics.webp" data-setup="{}">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_03-Crafting_Basics.webm" type="video/webm">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_03-Crafting_Basics.mp4" type="video/mp4">
+            </video>
+            <br>
+            <h5>Part 04: How to Use a Pick</h5>
+            <video id="Minecraft_Beginners_Tutorial-Part_04-How_to_Use_a_Pick" class="video-js game-video" controls preload="auto" fluid="true" poster="/img/Minecraft_Beginners_Tutorial-Part_04-How_to_Use_a_Pick.webp" data-setup="{}">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_04-How_to_Use_a_Pick.webm" type="video/webm">
+                <source src="/video/Minecraft_Beginners_Tutorial-Part_04-How_to_Use_a_Pick.mp4" type="video/mp4">
+            </video>
+            <br>
+            <p>Thanks to <a href="https://www.youtube.com/user/Coestar">Coestar</a> for videos above!</p>
+        </section>
+    </main>
+    <footer class="footer" aria-label="Footer containing legal information">
+        Eaglercraft 2023-2024 — 
+        <a class="footer__link" href="/p/legal/#terms-of-service">Terms of Service</a>
+        | <a class="footer__link" href="/p/legal/#privacy-policy">Privacy Policy</a>
+        | <a class="footer__link" href="/p/legal/#dmca">DMCA</a>
+         — This website is not affiliated with Mojang.
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.0.2/video.min.js"></script>
+</body>
+
+</html>
