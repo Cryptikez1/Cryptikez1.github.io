@@ -1,3 +1,6 @@
+![logo](https://github.com/user-attachments/assets/9200b3b6-326a-408e-a160-105e91a1cc8a)
+
+
 Hello, this is a current passion project that I am working on. This project that im working on is a remake of the old minecraft website(s) and minecraft itself.
 
 **DISCLAIMER: THIS PROJECT IS NOT AFFILIATED WITH NOTCH/MOJANG NOR EAGLERCRAFT!!!**
