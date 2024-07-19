@@ -11,3 +11,6 @@ I will post a couple of screenshots down below later or now, If im not too lazy.
 
 ![image](https://github.com/user-attachments/assets/ea7f3657-c3dd-4b34-a16b-47fcef821d99)
 
+![image](https://github.com/user-attachments/assets/1304f824-95d7-4061-b7c8-c0b89f6676e5)
+
+
