@@ -8,3 +8,6 @@ version. For instance check out my "Alpha 1.2.6" at "https://cryptikez1.github.i
 the minecraft function on the website.
 
 I will post a couple of screenshots down below later or now, If im not too lazy...
+
+![image](https://github.com/user-attachments/assets/ea7f3657-c3dd-4b34-a16b-47fcef821d99)
+
