@@ -11,6 +11,8 @@ I will post a couple of screenshots down below later or now, If im not too lazy.
 
 Reminder: I only make this for fun, I may add other versions **IF** I feel like it.
 
+Eaglercraft: https://eaglercraft.com or https://eaglercraft.ru
+
 ![image](https://github.com/user-attachments/assets/ea7f3657-c3dd-4b34-a16b-47fcef821d99)
 
 ![image](https://github.com/user-attachments/assets/51379eb4-d956-4f8a-9487-a32338f58407)
