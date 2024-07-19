@@ -12,7 +12,8 @@ I will post a couple of screenshots down below later or now, If im not too lazy.
 Reminder: I only make this for fun, I may add other versions **IF** I feel like it.
 
 Eaglercraft: https://eaglercraft.com or https://eaglercraft.ru
-Notch's Tumblr: https://www.tumblr.com/notsh-blog
+
+Notch's Socials: https://www.tumblr.com/notsh-blog https://x.com/notch?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
 
 ![image](https://github.com/user-attachments/assets/ea7f3657-c3dd-4b34-a16b-47fcef821d99)
 
