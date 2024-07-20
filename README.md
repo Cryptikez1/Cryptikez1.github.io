@@ -7,7 +7,7 @@ Hello, this is a current passion project that I am working on. This project that
 
 For this project im using eaglercraft, and The old minecraft websites, What I do is i copy the old minecraft websites, Fix them up a bit then start publishing it into a
 repository on github. And then I compile a build of eaglercraft (minecraft in your browser) and add it to the website, this makes a old minecraft website with a functioning
-version. For instance check out my "Alpha 1.2.6" at "https://cryptikez1.github.io" I remade the website and used peytonplays/lax1dude's Eaglercraft a.1.2.6 version to make
+version, which is alsmost a 1:1 replication. For instance check out my "Alpha 1.2.6" at "https://cryptikez1.github.io" I remade the website and used peytonplays/lax1dude's Eaglercraft a.1.2.6 version to make
 the minecraft function on the website.
 
 I will post a couple of screenshots down below later or now, If im not too lazy...
